@@ -48,3 +48,9 @@
 ### 然後本地端的 newBranch1 已經合併過了，所以可以把他刪除
 ### git branch -d newBranch1
 ### git 流程
+---
+## Git 補充指令
+### git add [檔案名稱] 想要取消 add
+### git reset -- [檔案名稱]  =>就可以把檔案移除 staged 區
+### 當用 git branch -a => 會顯示遠端已刪除的分支
+### 可以用 git fetch -p =>這樣不會顯示已刪除的遠端分支
