@@ -54,3 +54,12 @@
 ### git reset -- [檔案名稱]  =>就可以把檔案移除 staged 區
 ### 當用 git branch -a => 會顯示遠端已刪除的分支
 ### 可以用 git fetch -p =>這樣不會顯示已刪除的遠端分支
+---
+## 假設要把某一個檔案回復到上一次commit的狀態，
+### 先用 git status 確認這個檔案沒有在 stage
+### 如果已經在 stage 就把它移出來
+### git reset -- [檔案名稱]
+### 然後要回到檔案上一次的 commit
+### git checkout -- [檔案名稱]
+---
+##
