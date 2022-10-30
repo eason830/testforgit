@@ -62,4 +62,5 @@
 ### 然後要回到檔案上一次的 commit
 ### git checkout -- [檔案名稱]
 ---
-##
+## 當可能 commit 打錯 message ， 取消 commit 的指令
+### git reset --soft HEAD~1  =>數字代表回復幾次
